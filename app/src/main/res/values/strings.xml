@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProyectoAndroid</string>
+    <string name="registrar_persona">Registrar Persona</string>
+    <string name="salir">Salir</string>
+    <string name="registro_de_personas">Registro de Personas</string>
+
+    <string name="rut">Rut</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="registrar">Registrar Material</string>
+    <string name="sexo">Sexo</string>
+    <string name="listar">Listar Materiales</string>
+    <string name="lista_de_personas">Lista de Personas</string>
+    <string name="registro_inventario">Registro Inventario</string>
+    <string name="id">ID</string>
+    <string name="nombre_producto">Nombre Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="buscar_material">Buscar Material</string>
+    <string name="busqueda_de_material">Busqueda de Material</string>
+    <string name="buscar">Buscar</string>
+    <string name="tipo">Tipo</string>
+    <string name="sistema_de_bodega">Sistema de Bodega</string>
+    <string name="la_bodeguita">"La bodeguita"</string>
+    <string name="eliminar_materiales">Eliminar Materiales</string>
+
+</resources>

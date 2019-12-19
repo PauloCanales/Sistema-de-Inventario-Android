@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/registro_inventario"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/nombre_producto"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edtCant"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/cantidad"
+        android:inputType="phone"
+        android:theme="@style/MyEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNombre"
+        android:autofillHints="" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="349dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:theme="@style/MyEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCant" />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#75C0AF"
+        android:text="@string/registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
